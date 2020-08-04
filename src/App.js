@@ -9,6 +9,7 @@ import nba from './nba';
 function App() {
   return (
     <div className="App">
+    <h2>Autocomplete Search Component Display [<a href="https://github.com/phase7/autocomplete-search-react">Source</a>]</h2>
       <h3>Countries</h3>
       <AutoCompleteText items={countries} />      
       <h3>NBA MVPs</h3>
