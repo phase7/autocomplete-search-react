@@ -1,4 +1,5 @@
 import React from 'react';
+// import AutoCompleteText.css from '.';??
 
 export default class AutoCompleteText extends React.Component {
 	
@@ -53,7 +54,7 @@ export default class AutoCompleteText extends React.Component {
 		const {text} = this.state;
 
 		return(
-			<div>
+			<div className="AutoCompleteText">
 				<input value={text} onChange={this.onTextChange} type="text" />
 				{this.renderSuggestion()}
 			</div>

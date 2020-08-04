@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import './AutoCompleteText.css';
 import AutoCompleteText from './component/AutoCompleteText';
 
 function App() {
